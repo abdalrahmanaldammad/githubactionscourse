@@ -1,6 +1,6 @@
 EXPECTED="Hello abood"
 
-OUTPUT=$(node -e "console.log(require('./src/app')('abood')")
+OUTPUT=$(node -e "console.log(require('./src/app')('abood'))")
 
 if [ "$OUTPUT" == "$EXPECTED" ]; then
 
