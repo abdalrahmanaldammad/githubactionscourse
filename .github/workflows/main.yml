@@ -8,6 +8,10 @@ jobs:
       runs-on: ubuntu-latest 
       steps:
         - name: print a welcome 
-          run: echo "the first github actions!"
+          run: echo "The first GitHub Actions!"
+        - name: check out repository 
+          uses: actions/checkout@v4.2.2 
+        - name: List all the repositories 
+          run: ls -la 
          
          
